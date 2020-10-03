@@ -1,12 +1,12 @@
-for i in range(100):
-    if i % 15 == 0:
+for a in range(100):
+    if a % 15 == 0:
         print("FizzBuzz")
         continue
-    elif i % 3 == 0:
+    elif a % 3 == 0:
         print("Fizz")
         continue
-    elif i % 5 == 0:
+    elif a % 5 == 0:
         print("Buzz")
         continue
-    print(i)
+    print(a)
 
